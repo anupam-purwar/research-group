@@ -1,1 +1,47 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h2 {
+    margin: 10px 0;
+  }
+  
+  .team-member p {
+    margin-bottom: 22px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #007bff;
+  }
+  
